@@ -4,6 +4,7 @@
 .jumbotron
 {
     margin-top: 138px;
+    padding-top: 200px;
     background-image: url(./img/jumbo-bg.png);
     cursor: pointer;
     background-repeat: no-repeat;
@@ -12,9 +13,11 @@
     background-position: top;
     color: white;
 }
+.jumbotron-container
+{
+    max-width: 500px;
+}
 #returnal
 {
     width: 300px;
-    padding-top: 200px;
-
 }
