@@ -40,3 +40,8 @@
     border-radius: 50px;
     margin-bottom: 20px;
 }
+
+.console-bottom img
+{
+    max-width: 100px;
+}
