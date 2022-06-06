@@ -34,3 +34,9 @@
     width: 300px;
 }
 
+/*! cards */
+.ms-card
+{
+    border-radius: 50px;
+    margin-bottom: 20px;
+}
