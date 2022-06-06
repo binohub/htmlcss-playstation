@@ -1,0 +1,19 @@
+/*! header */
+
+/*! jumbotron */
+.jumbotron
+{
+    background-image: url(./img/jumbo-bg.png);
+    cursor: pointer;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-position: top;
+    color: white;
+}
+#returnal
+{
+    width: 300px;
+    padding-top: 200px;
+
+}
