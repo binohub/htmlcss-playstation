@@ -3,6 +3,7 @@
 /*! jumbotron */
 .jumbotron
 {
+    margin-top: 138px;
     background-image: url(./img/jumbo-bg.png);
     cursor: pointer;
     background-repeat: no-repeat;
