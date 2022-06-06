@@ -1,4 +1,16 @@
 /*! header */
+/*? dropdown full page */
+.dropdown { position: static; }
+.dropdown-menu {min-width: 576px; width: 100vw; text-align: center; }
+
+/* .dropdown-container
+{
+    padding: 10px 300px 10px 300px;
+} */
+.dropdown-container img
+{
+    max-width: 100px;
+}
 
 /*! jumbotron */
 .jumbotron
@@ -21,3 +33,4 @@
 {
     width: 300px;
 }
+
