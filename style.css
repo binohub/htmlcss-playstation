@@ -28,7 +28,6 @@
 .jumbotron-news
 {
     padding: 4rem 2rem;
-
     background-image: url(./img/it-takes-two-hero-banner-desktop.jpg);
     cursor: pointer;
     background-repeat: no-repeat;
@@ -57,4 +56,27 @@
 {
     max-width: 150px;
     padding: 0 10px;
+}
+
+.new-releases
+{
+    padding: 4rem 2rem;
+    background-color: black;
+
+}
+.new-releases *
+{
+color: white;
+}
+
+
+.new-releases img
+{
+    max-width: 250px;
+    padding: 20px;
+    transition: 1s;
+}
+.new-releases img:hover
+{
+    transform: scale(1.5);
 }
