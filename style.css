@@ -36,6 +36,7 @@
     background-position: top;
     color: white;
 }
+
 .jumbotron-container
 {
     max-width: 576px;
@@ -91,3 +92,21 @@ color: white;
 {
     transform: scale(0.8);
 }
+
+/*! plus */
+.play-station-plus
+{
+    padding: 0rem 4rem;
+    background: lightgray;
+    max-height: 500px;
+}
+
+.play-station-plus .column
+{
+    max-width: 400px;
+}
+#ps-plus-img
+{
+    max-height: 500px;
+}
+
