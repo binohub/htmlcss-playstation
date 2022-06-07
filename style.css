@@ -25,13 +25,25 @@
     background-position: top;
     color: white;
 }
+.jumbotron-news
+{
+    padding: 4rem 2rem;
+
+    background-image: url(./img/it-takes-two-hero-banner-desktop.jpg);
+    cursor: pointer;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-position: top;
+    color: white;
+}
 .jumbotron-container
 {
-    max-width: 500px;
+    max-width: 576px;
 }
-#returnal
+.logo-game
 {
-    width: 300px;
+    width: 200px;
 }
 
 /*! cards */
@@ -43,5 +55,6 @@
 
 .console-bottom img
 {
-    max-width: 100px;
+    max-width: 150px;
+    padding: 0 10px;
 }
