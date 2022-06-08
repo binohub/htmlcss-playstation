@@ -51,7 +51,8 @@
 }
 
 /*! cards */
-.ms-card {
+.ms-card img
+{
     border-radius: 50px;
     margin-bottom: 20px;
 }
@@ -73,13 +74,12 @@
 
 
 .new-releases img {
-    max-width: 250px;
-    padding: 20px;
-    transition: 1s;
+    transition: 0.5s;
 }
 
 .new-releases img:hover {
-    transform: scale(1.5);
+    transform: scale(0.99);
+    filter: brightness(0.6);
 }
 
 .play-station-4 img {
@@ -99,7 +99,8 @@
 }
 
 .sales img:hover {
-    transform: scale(0.8);
+    transform: scale(0.99);
+    filter: brightness(0.6);
 }
 
 .social img {
@@ -116,34 +117,32 @@
 
 /*! plus */
 .play-station-plus {
-    padding: 0rem 4rem;
     background: lightgray;
-    max-height: 500px;
 }
 
-.play-station-plus .column {
-    max-width: 400px;
+.play-station-plus .box {
+    /* max-width: 400px; */
 }
 
-#ps-plus-img {
+/* #ps-plus-img {
     max-height: 500px;
-}
+} */
 
 /*! now */
 .play-station-now {
-    padding: 0rem 4rem;
+    /* padding: 0rem 4rem; */
     background: rgb(0, 0, 50);
     color: white;
-    max-height: 500px;
+    /* max-height: 500px; */ */
 }
 
-.play-station-now .column {
+/* .play-station-now .box {
     max-width: 400px;
 }
 
 #ps-now-img {
     max-height: 500px;
-}
+} */
 
 
 /*! footer */
@@ -159,14 +158,6 @@ footer:hover {
 footer * {
     color: white;
     font-weight: bold;
-}
-
-.footer-logo {
-    transition: 1s;
-}
-
-.footer-logo:hover {
-    filter: invert(1);
 }
 
 .selectpicker {
