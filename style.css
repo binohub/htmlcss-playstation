@@ -1,20 +1,25 @@
 /*! header */
 /*? dropdown full page */
-.dropdown { position: static; }
-.dropdown-menu {min-width: 576px; width: 100vw; text-align: center; }
+.dropdown {
+    position: static;
+}
+
+.dropdown-menu {
+    min-width: 576px;
+    width: 100vw;
+    text-align: center;
+}
 
 /* .dropdown-container
 {
     padding: 10px 300px 10px 300px;
 } */
-.dropdown-container img
-{
+.dropdown-container img {
     max-width: 100px;
 }
 
 /*! jumbotron */
-.jumbotron
-{
+.jumbotron {
     margin-top: 138px;
     padding-top: 200px;
     background-image: url(./img/jumbo-bg.png);
@@ -25,8 +30,8 @@
     background-position: top;
     color: white;
 }
-.jumbotron-news
-{
+
+.jumbotron-news {
     padding: 4rem 2rem;
     background-image: url(./img/it-takes-two-hero-banner-desktop.jpg);
     cursor: pointer;
@@ -37,144 +42,133 @@
     color: white;
 }
 
-.jumbotron-container
-{
+.jumbotron-container {
     max-width: 576px;
 }
-.logo-game
-{
+
+.logo-game {
     width: 200px;
 }
 
 /*! cards */
-.ms-card
-{
+.ms-card {
     border-radius: 50px;
     margin-bottom: 20px;
 }
 
-.console-bottom img
-{
+.console-bottom img {
     max-width: 150px;
     padding: 0 10px;
 }
 
-.new-releases
-{
+.new-releases {
     padding: 4rem 2rem;
     background-color: black;
 
 }
-.new-releases *
-{
-color: white;
+
+.new-releases * {
+    color: white;
 }
 
 
-.new-releases img
-{
+.new-releases img {
     max-width: 250px;
     padding: 20px;
     transition: 1s;
 }
-.new-releases img:hover
-{
+
+.new-releases img:hover {
     transform: scale(1.5);
 }
 
-.play-station-4 img
-{
+.play-station-4 img {
 
     padding: 20px;
     transition: 1s;
 }
-.play-station-4 img:hover
-{
+
+.play-station-4 img:hover {
     transform: scale(0.8);
 }
 
-.sales img
-{
+.sales img {
 
     padding: 20px;
     transition: 1s;
 }
-.sales img:hover
-{
+
+.sales img:hover {
     transform: scale(0.8);
 }
 
-.social img
-{
+.social img {
 
     padding: 20px;
     transition: 1s;
 }
-.social img:hover
-{
+
+.social img:hover {
     transform: scale(0.9);
     filter: brightness(0.8);
 }
 
 
 /*! plus */
-.play-station-plus
-{
+.play-station-plus {
     padding: 0rem 4rem;
     background: lightgray;
     max-height: 500px;
 }
-.play-station-plus .column
-{
+
+.play-station-plus .column {
     max-width: 400px;
 }
-#ps-plus-img
-{
+
+#ps-plus-img {
     max-height: 500px;
 }
 
 /*! now */
-.play-station-now
-{
+.play-station-now {
     padding: 0rem 4rem;
-    background: rgb(0, 0, 50 );
+    background: rgb(0, 0, 50);
     color: white;
     max-height: 500px;
 }
-.play-station-now .column
-{
+
+.play-station-now .column {
     max-width: 400px;
 }
-#ps-now-img
-{
+
+#ps-now-img {
     max-height: 500px;
 }
 
 
 /*! footer */
-footer
-{
+footer {
     background-color: black;
     transition: 1s;
 }
-footer:hover
-{
+
+footer:hover {
     filter: invert(1);
 }
-footer *
-{
+
+footer * {
     color: white;
     font-weight: bold;
 }
 
-.footer-logo
-{
+.footer-logo {
+    transition: 1s;
 }
-.selectpicker *
-{
-    color: black;
+
+.footer-logo:hover {
+    filter: invert(1);
 }
-.selectpicker 
-{
-    color: black;
+
+.selectpicker {
+    background-color: black;
 }
