@@ -21,7 +21,7 @@
 /*! jumbotron */
 .jumbotron {
     margin-top: 138px;
-    padding-top: 200px;
+    padding-top: 300px;
     background-image: url(./img/jumbo-bg.png);
     cursor: pointer;
     background-repeat: no-repeat;
@@ -29,10 +29,10 @@
     background-position: center;
     background-position: top;
     color: white;
+    /* height: 600px; */
 }
 
 .jumbotron-news {
-    padding: 4rem 2rem;
     background-image: url(./img/it-takes-two-hero-banner-desktop.jpg);
     cursor: pointer;
     background-repeat: no-repeat;
@@ -42,21 +42,11 @@
     color: white;
 }
 
-.jumbotron-container {
-    max-width: 576px;
-}
-
 .logo-game {
     width: 200px;
 }
 
 /*! cards */
-.ms-card img
-{
-    border-radius: 50px;
-    margin-bottom: 20px;
-}
-
 .console-bottom img {
     max-width: 150px;
     padding: 0 10px;

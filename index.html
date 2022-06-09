@@ -199,23 +199,33 @@
     <main class="">
         <div class="jumbotron">
             <div class="container">
-                <img class="logo-game" src="./img/returnal-hero-banner-logo.png" alt="">
-                <h1 class="display-4">Rompi il cerchio</h1>
-                <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra
-                    attention to
-                    featured content or information.</p>
+                <div class="row">
+                    <img class="col-8 col-lg-4 logo-game" src="./img/returnal-hero-banner-logo.png" alt="">
+                </div>
+                
+                <div class="row">
+                    <h1 class="col-12 col-lg-6 display-4">Rompi il cerchio</h1>
+                </div>
+                
+                <div class="row">
+                    <p class="col-12 col-lg-6">This is a simple hero unit, a simple jumbotron-style component for calling extra
+                        attention to
+                        featured content or information.</p>
+                </div>
+                
                 <button type="button" class="btn badge-pill btn-danger btn-sm">Acquista ora!</button>
             </div>
         </div>
         <section class="cards">
+            <!-- todo border-active & radius -->
             <div class="container">
                 <div class="row">
-                    <img class="col-6 col-md-4 col-xl-2 mb-2" src="./img/returnal-listing-thumb-01-ps5.jpg" alt="">
-                    <img class="col-6 col-md-4 col-xl-2 mb-2" src="./img/returnal-listing-thumb-01-ps5.jpg" alt="">
-                    <img class="col-6 col-md-4 col-xl-2 mb-2" src="./img/returnal-listing-thumb-01-ps5.jpg" alt="">
-                    <img class="col-6 col-md-4 col-xl-2 mb-2" src="./img/returnal-listing-thumb-01-ps5.jpg" alt="">
-                    <img class="col-6 col-md-4 col-xl-2 mb-2" src="./img/returnal-listing-thumb-01-ps5.jpg" alt="">
-                    <img class="col-6 col-md-4 col-xl-2 mb-2" src="./img/returnal-listing-thumb-01-ps5.jpg" alt="">
+                    <img class="col-6 col-sm-4 col-xl-2 mb-2" src="./img/returnal-listing-thumb-01-ps5.jpg" alt="">
+                    <img class="col-6 col-sm-4 col-xl-2 mb-2" src="./img/returnal-listing-thumb-01-ps5.jpg" alt="">
+                    <img class="col-6 col-sm-4 col-xl-2 mb-2" src="./img/returnal-listing-thumb-01-ps5.jpg" alt="">
+                    <img class="col-6 col-sm-4 col-xl-2 mb-2" src="./img/returnal-listing-thumb-01-ps5.jpg" alt="">
+                    <img class="col-6 col-sm-4 col-xl-2 mb-2" src="./img/returnal-listing-thumb-01-ps5.jpg" alt="">
+                    <img class="col-6 col-sm-4 col-xl-2 mb-2" src="./img/returnal-listing-thumb-01-ps5.jpg" alt="">
                 </div>
             </div>
         </section>
@@ -229,11 +239,11 @@
         <div class="console">
             <section class="console-top">
                 <div
-                    class="container pt-5 text-center d-flex flex-column flex-md-row align-items-center justify-content-center">
-                    <div class="row justify-content-center">
+                    class="container pt-5 text-start d-flex flex-column flex-md-row align-items-center justify-content-center">
+                    <div class="row justify-content-start">
                         <h1 class="col-12">Console PlayStation 5</h1>
                         <p class="col-12">Ehy gamer... ti va di sperimentare questa nuova generazione del gaming?</p>
-                        <button type="button" class="btn btn-primary btn-sm badge-pill">Maggiori informazioni</button>
+                        <button type="button" class="mx-2 btn btn-primary btn-sm badge-pill">Maggiori informazioni</button>
                     </div>
 
                     <div class="row">
@@ -242,17 +252,21 @@
                 </div>
             </section>
             <section class="console-bottom">
-                <div class="container d-flex justify-content-around flex-wrap">
-                    <a class="d-flex flex-column align-items-center" href="#"><img src="./img/joypad-thumb.png"
+                <!-- todo opacity / active -->
+                <div class="container">
+                    <div class="row text-center">
+                        <a class="col-4 offset-md-1 col-md-2"  href="#"><img src="./img/joypad-thumb.png"
                             alt="">Controller Wireless DualSense</a>
-                    <a class="d-flex flex-column align-items-center" href="#"><img src="./img/joypad-thumb.png"
+                        <a class="col-4 col-md-2" href="#"><img src="./img/joypad-thumb.png"
                             alt="">Controller Wireless DualSense</a>
-                    <a class="d-flex flex-column align-items-center" href="#"><img src="./img/joypad-thumb.png"
+                        <a class="col-4 col-md-2" href="#"><img src="./img/joypad-thumb.png"
                             alt="">Controller Wireless DualSense</a>
-                    <a class="d-flex flex-column align-items-center" href="#"><img src="./img/joypad-thumb.png"
+                        <a class="col-4 col-md-2" href="#"><img src="./img/joypad-thumb.png"
                             alt="">Controller Wireless DualSense</a>
-                    <a class="d-flex flex-column align-items-center" href="#"><img src="./img/joypad-thumb.png"
+                        <a class="col-4 col-md-2" href="#"><img src="./img/joypad-thumb.png"
                             alt="">Controller Wireless DualSense</a>
+                
+                    </div>
                 </div>
             </section>
         </div>
@@ -260,16 +274,17 @@
             <div class="container text-left">
                 <div class="jumbotron-container">
                     <div class="row">
-                        <img class="logo-game col-8 col-md-6 col-lg-4" src="./img/it-takes-two-logo.png" alt="">
+                        <img class="mt-5 logo-game col-6 col-md-8 col-lg-3" src="./img/it-takes-two-logo.png" alt="">
                     </div>
-                    <h1 class="display-4">Rompi il cerchio</h1>
-                    <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra
+
+                    <h1 class="col-12 col-lg-6 display-4">Rompi il cerchio</h1>             
+                    <p class="col-12 col-lg-6">This is a simple hero unit, a simple jumbotron-style component for calling extra
                         attention to
                         featured content or information.</p>
-                    <button type="button" class="btn badge-pill btn-danger btn-sm">Acquista ora!</button>
+                    <button type="button" class="mb-5 ml-2 btn badge-pill btn-danger btn-sm">Acquista ora!</button>
                 </div>
                 </div>
-        </div>
+                
         <section class="new-releases">
             <div class="container">
                 <h1 class="d-flex justify-content-center">New releases</h1>
