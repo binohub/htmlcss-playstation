@@ -33,15 +33,13 @@
 }
 
 .jumbotron-news {
+
     background-image: url(./img/it-takes-two-hero-banner-desktop.jpg);
-    cursor: pointer;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    background-position: top;
     color: white;
 }
-
 .logo-game {
     width: 200px;
 }
